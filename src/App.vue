@@ -64,6 +64,7 @@ export default {
   setup(){
     const routes = router.getRoutes();
     let i = ref(1);
+    let y = ref(2)
     return {
       routes
     }
