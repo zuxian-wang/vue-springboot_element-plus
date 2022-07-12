@@ -56,7 +56,6 @@
 
 <script>
 
-import {ref} from "vue";
 import router from "@/router";
 
 export default {
