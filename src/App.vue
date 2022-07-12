@@ -57,12 +57,13 @@
 <script>
 
 import router from "@/router";
+import {ref} from "vue";
 
 export default {
   name: 'App',
   setup(){
-    const routes = router.getRoutes()
-
+    const routes = router.getRoutes();
+    let i = ref(1);
     return {
       routes
     }
